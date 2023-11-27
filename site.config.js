@@ -30,7 +30,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: "https://learned-waterfall-3ea.notion.site/Getting-Started-8192d4c7d8094c93b695abdf0bceca7f?pvs=4",
+    pageId: process.env.NOTION_PAGE_ID,,
   },
 
   // plugin configuration (optional)
